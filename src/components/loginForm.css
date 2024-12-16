@@ -1,0 +1,87 @@
+/* Conteneur principal du formulaire */
+.login-container {
+    background-color: #1D3144;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.login-form {
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+    
+}
+
+/* Titre du formulaire */
+.login-form h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Groupes de champs */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Conteneur pour champ de saisie + icône */
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Champ de saisie */
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Icônes */
+.input-container .icon {
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bouton de connexion */
+.btn-primary {
+    background-color: #1DD9B8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #17bba2;
+}
+
+/* Logo */
+.login-logo {
+    width: 70%; /* Ajuste la taille du logo selon tes besoins */
+    height: auto;
+    margin-bottom: 20px; /* Espace entre le logo et le titre */
+}
