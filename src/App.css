@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Style pour le footer */
+.footer {
+  position: fixed;  /* Fixe le footer en bas de la page */
+  bottom: 0;
+  width: 100%;  /* Prend toute la largeur de l'écran */
+  background-color: #ffffff; /* Fond bleu (comme sur la photo) */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement */
+  z-index: 1000;
+}
+
+/* Style des liens dans le footer */
+.footer-links {
+  display: flex;  /* Affiche les liens horizontalement */
+  gap: 30px;  /* Espace entre les liens */
+}
+
+.footer-link {
+  color: #333333;
+  text-decoration: none;  /* Retire le souligné */
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;  /* Ajoute un souligné au survol */
+}
